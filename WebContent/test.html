@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>发布测试</title>
+</head>
+
+<body>
+	<div>1.用绝对URL显示图片(1.拷贝项目物理路径，2.恒等替换，把前面换成localhost地址。3.斜杠更换)
+		src指定图片在互联网中的位置
+		alt图片显示不出来，给一个提示信息</div>
+	<br>
+	<img alt="" src="http://localhost:8080/infoSubSys/images/portrait.jpg" width="200px" height="">
+	<br>
+	2.用以/开头的相对路径URL来显示图片
+	1.求解资源绝地路径。2.将项目起点之前的路径(localhost)删除
+	<br>
+	<img alt="" src="/infoSubSys/images/portrait.jpg" width="200px" height="">
+	<br>
+	3.用不以/开头的相对路径
+	<br>
+	<img alt="" src="./images/portrait.jpg" width="200px" height="">
+	<br>
+	<h2>22306班-李虹廷</h2>
+</body>
+</html>
